@@ -113,8 +113,8 @@ function spawnShrubs() {
   if (frameCount % 150 === 0) {
 
     // var shrub = createSprite(camera.position+500,330,40,10);
-    // var shrub = createSprite(camera.position.x+500,330,40,10);
-     var shrub = createSprite(camera.positionX+500,330,40,10);
+     var shrub = createSprite(camera.position.x+500,330,40,10);
+    // var shrub = createSprite(camera.positionX+500,330,40,10);
     // var shrub = createSprite(Camera.position.x+500,330,40,10);
 
     shrub.velocityX = -(6 + 3*score/100)
@@ -145,7 +145,7 @@ function spawnObstacles() {
   if(frameCount % 120 === 0) {
 
     // var obstacle = createSprite(camera.Position.X+400,330,40,40);
-    // var obstacle = createSprite(Camera.Position.x+400,330,40,40);
+    // var obstacle = createSprite(Camera.Position.x+400,330,40,40)
      var obstacle = createSprite(camera.position.x+400,330,40,40);
     // var obstacle = createSprite(camera.position.x.400,330,40,40);
 
